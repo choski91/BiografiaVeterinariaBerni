@@ -1,0 +1,161 @@
+div {
+    max-width: 1080px;
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+a {
+  text-decoration: none;
+  color: coral;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+a:hover {
+    text-decoration: none;
+    color: #ffd700;
+    
+}
+a:focus {
+    color: cornflowerblue;
+    background-color: goldenrod; 
+    outline: 2px solid darkorange; 
+    outline-offset: 2px; 
+}
+p {
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#titulo-biografia {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 80px;
+  
+} 
+#titulo-portfolio {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 80px;
+}
+
+ul {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 800px;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20 px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 15px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 80px; 
+}
+
+nav li a {
+    text-decoration: none; 
+    color: white;
+    padding: 20px;
+    transition: background-color 0.3s ease; 
+}
+
+nav li a:hover {
+    background-color: #575757; 
+    border-radius: 5px; 
+}
+#cuerpo-portfolio{
+    font-family: 'Permanent Marker', cursive; 
+    margin: 0;
+    padding: 20px;
+    background-color: #ffd700;
+    color: white;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 15px; 
+    width: 100%; 
+    box-sizing: border-box; 
+     
+}
+
+h1 {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: palevioletred;
+}
+ h2 {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: palevioletred;
+}
+
+ h3 {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: palevioletred;
+ }
+  
+#titulo-home {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+  margin: 600;
+}
+
+#titulo-home:hover {
+    transform: rotate(2deg);
+    color: #ff1493;  
+}
+
+#titulo-contacta {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 600;
+    background-color: #333;
+}
+body {
+    font-family: 'Permanent Marker', cursive; 
+    margin: 0;
+    padding: 0;
+    background-color: #ffd700; 
+    color: #333; 
+}
+
+#cuerpo-home {
+  background-color: #ffd700;
+}
