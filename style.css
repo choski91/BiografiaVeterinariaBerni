@@ -121,6 +121,43 @@ a:focus {
    outline-offset: 2px; 
 }
 
+.imagenes {
+   width: 350px;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+}
+
+.form-grupo {
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 1.5rem; 
+  position: relative; 
+}
+.form-grupo label {
+  margin-bottom: 0.5rem; 
+  font-weight: 600; 
+  color: var(--color-texto-general);
+  font-size: 0.95rem; 
+}
+.form-grupo input[type="text"],
+.form-grupo input[type="email"],
+.form-grupo textarea {
+  padding: 0.75rem 1rem; 
+  border: 1px solid var(--color-primario-fondo);
+  border-radius: 0.375rem; 
+  font-size: 1rem; 
+  line-height: 1.5; 
+  width: 100%; 
+  box-sizing: border-box; 
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-grupo textarea {
+  resize: vertical; 
+  min-height: 100px; 
+}
+
 #cuerpo-portfolio{
    font-family: 'Permanent Marker', cursive; 
    margin: 0;
@@ -144,7 +181,6 @@ a:focus {
    margin-top: 5rem;
    margin-bottom: 2.5rem;
    font-size: clamp(2.5rem, 6vw + 1rem, 5rem);
-   
 }
 
 #titulo-home:hover {
@@ -153,13 +189,12 @@ a:focus {
 }
 
 #titulo-contacta {
-   font-family: "Permanent Marker", cursive;
+   font-family: "Imperial Script", cursive;
    font-weight: 400;
    font-style: normal;
    text-align: center;
    margin-top: 5rem;
    margin-bottom: 2.5rem;
-   background-color: var(--color-header-fondo);
 }
 
 #cuerpo-home {
@@ -172,8 +207,8 @@ a:focus {
    font-style: normal;
    text-align: center;
    font-size: 5rem;
-  
 } 
+
 #titulo-portfolio {
    font-family: "Imperial Script", cursive;
    font-weight: 400;
@@ -186,9 +221,9 @@ a:focus {
   nav ul {
     flex-direction: row; 
     gap: 3rem; 
-  }
+   }
 
   nav li a {
     width: auto;
-  }
+   }
 }

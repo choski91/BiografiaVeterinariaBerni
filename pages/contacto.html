@@ -16,34 +16,36 @@
      <nav>
       <ul>
         <li><a href="../index.html">Home</a></li>
-        <li><a href="biografia.html">Biografia</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="./biografia.html">Biografia</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
      </ul>
     </nav>
   </header>
     <main>
     <h1 id="titulo-contacta">Contacta con nosotros</h1>
     <form action="#" method="POST" name="contactForm">
+      <div class="form-grupo">
         <label for="nombre">Nombre:</label>
         <input type="text"
                id="nombre"
                name="nombre"
                required
-        />       
-
+        /></div>
+      <div class="form-grupo">
         <label for="email">Correo electrónico:</label>
         <input type="email"
                id="email"
                name="correo electrónico"
                required
-        />       
+        /></div>
+      <div class="form-grupo">    
         <label for="mensaje">Mensaje:</label>
         <textarea
           id="mensaje"
           name="mensaje"
           placeholder="Mensaje"
           required
-        ></textarea>
+        ></textarea></div>
         <button type="submit" onclick="alert('Muchas gracias!')">Enviar</button>
     </form>
     </main> 
