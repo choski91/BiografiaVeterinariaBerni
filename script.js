@@ -1,5 +1,5 @@
 //Validacion de formulario
-console.log("hola");
+
 document.querySelector("form").addEventListener("submit", function (event) {
   event.preventDefault();
   console.log(event.target.elements);
@@ -16,10 +16,13 @@ document.querySelector("form").addEventListener("submit", function (event) {
 
   if (nombre.length < 3 || nombre.length > 30) {
 
-    console.log("Nombre fuera de tamaño: 3-30");
-    msj += "Nombre fuera de tamaño: 3-30\n";
+    msj += "Nombre fuera de tamaño: debe contener entre 3 y 30 caracteres\n";
   }
+  if (mensaje.length < 10 || mensaje.length > 80) {
 
+
+    msj += "Mensaje fuera de tamaño: debe contener entre 10 y 80 caracteres\n";
+  }
   if (
     (!email.endsWith(".com") && !email.endsWith(".es")) ||
     !email.includes("@")

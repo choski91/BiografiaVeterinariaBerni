@@ -1,55 +1,59 @@
 :root {
-  --color-primario-fondo: #ffd700; 
-  --color-texto-general: #333; 
-  --color-header-fondo: #333; 
-  --color-texto-claro: white; 
-  --color-acento-rosa: #ff1493; 
-  --color-acento-lila: palevioletred; 
-  --color-link-coral: coral; 
-  --color-link-hover-dorado: #ffd700; 
-  --color-link-focus-azul: cornflowerblue;
-  --color-link-focus-fondo: goldenrod; 
-  --color-hover-gris: #575757; 
+   --color-primario-fondo: #ffd700;
+   --color-texto-general: #333;
+   --color-header-fondo: #333;
+   --color-texto-claro: white;
+   --color-acento-rosa: #ff1493;
+   --color-acento-lila: palevioletred;
+   --color-link-coral: coral;
+   --color-link-hover-dorado: #ffd700;
+   --color-link-focus-azul: cornflowerblue;
+   --color-link-focus-fondo: goldenrod;
+   --color-hover-gris: #575757;
 }
-html { 
-  font-size: 16px;
+
+html {
+   font-size: 16px;
 }
+
 body {
-    font-family: 'Permanent Marker', cursive; 
-    margin: 0;
-    padding: 0;
-    background-color: var(--color-primario-fondo);
-    color: var(--color-texto-general);
-    }
+   font-family: 'Permanent Marker', cursive;
+   margin: 0;
+   padding: 0;
+   background-color: var(--color-primario-fondo);
+   color: var(--color-texto-general);
+}
 
 header {
-    background-color: var(--color-header-fondo);
-    color: var(--color-texto-claro);
-    padding: 1rem;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    gap: 1rem;
-    width: 100%; 
-    box-sizing: border-box; 
+   background-color: var(--color-header-fondo);
+   color: var(--color-texto-claro);
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   width: 100%;
+   box-sizing: border-box;
 }
 
-h1, h2, h3 {
-  font-family: "Imperial Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--color-acento-lila);
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-size: clamp(2.5rem, 6vw + 1rem, 5rem);
+h1,
+h2,
+h3 {
+   font-family: "Imperial Script", cursive;
+   font-weight: 400;
+   font-style: normal;
+   color: var(--color-acento-lila);
+   margin-top: 1.5rem;
+   margin-bottom: 0.5rem;
+   font-size: clamp(2.5rem, 6vw + 1rem, 5rem);
 }
- 
+
 p {
    font-size: 1.1rem;
    text-align: left;
    line-height: 1.5;
 }
-  
+
 div {
    max-width: 1080px;
    width: 90%;
@@ -61,7 +65,7 @@ ul {
    font-family: "Permanent Marker", cursive;
    font-weight: 400;
    font-style: normal;
-   font-size: 1.1rem; 
+   font-size: 1.1rem;
 }
 
 footer {
@@ -71,37 +75,50 @@ footer {
    margin-top: 5rem;
 }
 
+button {
+   margin-top: 1rem;
+   padding: 0.5rem 1rem;
+   background-color: var(--color-header-fondo);
+   color: var(--color-texto-claro);
+   border: none;
+   border-radius: 100px;
+   cursor: pointer;
+   display: block;
+
+}
+
+
 nav ul {
-   list-style: none; 
+   list-style: none;
    padding: 0;
    margin: 0;
    display: flex;
    flex-direction: column;
-   justify-content: center; 
+   justify-content: center;
    gap: 3rem;
 }
 
 nav li a {
-   text-decoration: none; 
+   text-decoration: none;
    color: var(--color-texto-claro);
    padding: 0.8rem 1.2rem;
-   transition: background-color 0.3s ease; 
+   transition: background-color 0.3s ease;
    background-color: var(--color-acento-rosa);
-   border: none;          
-   border-radius: 5px;    
-   transition: background-color 0.3s ease, transform 0.2s ease; 
-   display: inline-block; 
-   text-align: center;    
-   cursor: pointer;       
+   border: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+   display: inline-block;
+   text-align: center;
+   cursor: pointer;
    font-weight: bold;
    font-size: 1.1rem;
-   width: 100%;     
+   width: 100%;
    box-sizing: border-box;
 }
 
 nav li a:hover {
-   background-color: var(--color-hover-gris); 
-   border-radius: 5px; 
+   background-color: var(--color-hover-gris);
+   border-radius: 5px;
 }
 
 a {
@@ -110,6 +127,7 @@ a {
    padding: 0.3rem 0.5rem;
    border-radius: 3px;
 }
+
 a:hover {
    text-decoration: none;
    color: var(--color-link-hover-dorado);
@@ -118,7 +136,7 @@ a:hover {
 a:focus {
    color: var(--color-link-focus-azul);
    background-color: var(--color-link-focus-fondo);
-   outline-offset: 2px; 
+   outline-offset: 2px;
 }
 
 .imagenes {
@@ -129,47 +147,49 @@ a:focus {
 }
 
 .form-grupo {
-  display: flex;
-  flex-direction: column; 
-  margin-bottom: 1.5rem; 
-  position: relative; 
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1.5rem;
+   position: relative;
 }
+
 .form-grupo label {
-  margin-bottom: 0.5rem; 
-  font-weight: 600; 
-  color: var(--color-texto-general);
-  font-size: 0.95rem; 
+   margin-bottom: 0.5rem;
+   font-weight: 600;
+   color: var(--color-texto-general);
+   font-size: 0.95rem;
 }
+
 .form-grupo input[type="text"],
 .form-grupo input[type="email"],
 .form-grupo textarea {
-  padding: 0.75rem 1rem; 
-  border: 1px solid var(--color-primario-fondo);
-  border-radius: 0.375rem; 
-  font-size: 1rem; 
-  line-height: 1.5; 
-  width: 100%; 
-  box-sizing: border-box; 
-  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+   padding: 0.75rem 1rem;
+   border: 1px solid var(--color-primario-fondo);
+   border-radius: 0.375rem;
+   font-size: 1rem;
+   line-height: 1.5;
+   width: 100%;
+   box-sizing: border-box;
+   transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .form-grupo textarea {
-  resize: vertical; 
-  min-height: 100px; 
+   resize: vertical;
+   min-height: 100px;
 }
 
-#cuerpo-portfolio{
-   font-family: 'Permanent Marker', cursive; 
+#cuerpo-portfolio {
+   font-family: 'Permanent Marker', cursive;
    margin: 0;
    padding: 1rem;
    background-color: var(--color-primario-fondo);
    color: var(--color-texto-claro);
-   display: flex; 
-   flex-direction: column; 
-   align-items: center; 
-   gap: 1rem; 
-   width: 100%; 
-   box-sizing: border-box; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   width: 100%;
+   box-sizing: border-box;
 }
 
 #titulo-home {
@@ -185,7 +205,7 @@ a:focus {
 
 #titulo-home:hover {
    transform: rotate(2deg);
-   color: var(--color-acento-rosa); 
+   color: var(--color-acento-rosa);
 }
 
 #titulo-contacta {
@@ -207,7 +227,7 @@ a:focus {
    font-style: normal;
    text-align: center;
    font-size: 5rem;
-} 
+}
 
 #titulo-portfolio {
    font-family: "Imperial Script", cursive;
@@ -218,12 +238,12 @@ a:focus {
 }
 
 @media (min-width: 48em) {
-  nav ul {
-    flex-direction: row; 
-    gap: 3rem; 
+   nav ul {
+      flex-direction: row;
+      gap: 3rem;
    }
 
-  nav li a {
-    width: auto;
+   nav li a {
+      width: auto;
    }
 }
