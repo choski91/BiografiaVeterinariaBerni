@@ -39,7 +39,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     p.style.fontSize = "16px";
     p.appendChild(mensaje);
 
-    document.getElementById("Contacto").appendChild(p);
+    //document.getElementById("Contacto").appendChild(p);
   }
   else {
 
