@@ -1,4 +1,4 @@
-Bienvenidos# 🐾 Veterinario Berni
+Bienvenidos# 🐾 Veterinaria Berni
 
 **Veterinaria Berni** es un sitio web creado para presentar la información y servicios de una clínica veterinaria ficticia.  
 El proyecto fue desarrollado con **HTML5** , **CSS3** y **JavaScript**, aplicando buenas prácticas de diseño y maquetación.
@@ -7,7 +7,7 @@ El proyecto fue desarrollado con **HTML5** , **CSS3** y **JavaScript**, aplicand
 
 ## 🚀 Secciones principales
 - **Home:** Página de bienvenida con visión general del sitio.  
-- **Biografía:** Historia de la veterinaria
+- **Biografía:** Historia de la veterinaria.
 - **Portfolio:** Presentación de diferentes animales utilizando imágenes, video y audio.
 - **Contacto:** Formulario para comunicarse fácilmente.  
 
@@ -34,7 +34,10 @@ El proyecto fue desarrollado con **HTML5** , **CSS3** y **JavaScript**, aplicand
 1. Clonar este repositorio:  
 
    git clone https://github.com/tuusuario/veterinario-berni.git
- 
+
+
+--- 
+
  ## 👩‍💻 Autor ##
 
 María Laura Smichowski
