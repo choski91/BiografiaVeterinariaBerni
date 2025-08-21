@@ -1,4 +1,4 @@
-Bienvenidos# 🐾 Veterinaria Berni
+# 🐾 Veterinaria Berni
 
 **Veterinaria Berni** es un sitio web creado para presentar la información y servicios de una clínica veterinaria ficticia.  
 El proyecto fue desarrollado con **HTML5** , **CSS3** y **JavaScript**, aplicando buenas prácticas de diseño y maquetación.
