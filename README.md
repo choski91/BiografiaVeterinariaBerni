@@ -26,8 +26,7 @@ El proyecto fue desarrollado con **HTML5** , **CSS3** y **JavaScript**, aplicand
 
 ## 📸 Vista previa
 
-![image.png]
-(screenshots/image.png)  
+![captura veterninaria Berni](screenshots/image.png)
 
 ---
 
